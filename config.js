@@ -28,6 +28,5 @@ CKEDITOR.editorConfig = function( config ) {
             items: ['Format','Font','FontSize']
         },
 	  ];
-    
 	config.skin = 'moono';
 };
