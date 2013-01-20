@@ -29,4 +29,11 @@ CKEDITOR.editorConfig = function( config ) {
         },
 	  ];
 	config.skin = 'moono';
+	
+	config.filebrowserBrowseUrl = '/js/kcfinder/browse.php?type=files';
+	config.filebrowserImageBrowseUrl = '/js/kcfinder/browse.php?type=img';
+	config.filebrowserFlashBrowseUrl = '/js/kcfinder/browse.php?type=flash';
+	config.filebrowserUploadUrl = '/js/kcfinder/upload.php?type=files';
+	config.filebrowserImageUploadUrl = '/js/kcfinder/upload.php?type=img';
+	config.filebrowserFlashUploadUrl = '/js/kcfinder/upload.php?type=flash';
 };
