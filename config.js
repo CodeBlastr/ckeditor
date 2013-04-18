@@ -21,7 +21,7 @@ CKEDITOR.editorConfig = function( config ) {
         },
         {
             name: 'extras3', 
-            items: ['Table','HorizontalRule','PageBreak']
+            items: ['Table','HorizontalRule','PageBreak', 'RemoveFormat']
         },
         {
             name: 'extras4', 
