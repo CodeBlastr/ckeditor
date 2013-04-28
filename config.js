@@ -1,5 +1,5 @@
 CKEDITOR.editorConfig = function( config ) {
-    //config.extraPlugins = 'video_js';
+    config.extraPlugins = 'mediaembed';
 
     config.toolbar = [
         {
